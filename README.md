@@ -3,7 +3,7 @@
 
 ## 0. Disclaimer
 
-* This is not an official Google product.
+* This is **not** an official Google product.
 * This is tested only on Ubuntu though it would be running on any platforms which installed python and depending python packages.
 
 ## 1. Introduction
@@ -17,11 +17,11 @@ To run conformance tests, Sprockets users should provide:
 
 State transitions are specified with STL (State Transition Language). See [STL.md](doc/STL.md) for details of STL.
 
-test_driver.py is the main program made of Python to run conformance tests specified by users with a test manifest, STL files, and python libraries.
+`test_driver.py` is the main program made of Python to run conformance tests specified by users with a test manifest, STL files, and python libraries.
 
 ## 2. test_driver.py
 ### 2.1. Environment Setup
-To run test_driver.py, extra python packages below are necessary:
+To run `test_driver.py, extra python packages below are necessary:
 
 * google.protobuf
 * ply
